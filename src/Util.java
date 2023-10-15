@@ -8,7 +8,7 @@ import com.google.gson.GsonBuilder;
 public class Util {
     public static Connection connect() throws Exception {
         Class.forName("org.postgresql.Driver");
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/gestion_rh", "gestion", "gestion");
+        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/test_session", "test", "test");
     }
 
     public static String toJson(Object objet) {

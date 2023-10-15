@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
 </head>
 <body>
     Server 1
-    <form action="#">
+    <form action="<%=request.getContextPath()%>/TestServlet">
         Utilisateur :
         <input type="text" name="nom" id="">
         Mot de passe :

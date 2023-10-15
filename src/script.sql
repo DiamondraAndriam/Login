@@ -6,7 +6,7 @@ create table pgsession(
 );
 
 create table pgsession_attribute(
-    idsession text FOREIGN KEY pgsession(id),
+    idsession text REFERENCES pgsession(id),
     attr_name VARCHAR(20) UNIQUE,
     attr_value text
 );

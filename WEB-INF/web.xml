@@ -6,5 +6,13 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
   version="3.1"
   metadata-complete="true">
-
+  <servlet>
+      <servlet-name>TestServlet</servlet-name>
+      <servlet-class>test.TestServlet</servlet-class>
+      <init-param>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>TestServlet</servlet-name>
+      <url-pattern>TestServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
